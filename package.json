@@ -5,6 +5,13 @@
     "author": "Vukasin Pesic",
     "license": "MIT",
     "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nullion-labs/erc-abis.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nullion-labs/erc-abis/issues"
+    },
     "scripts": {
         "update": "git add . && git commit -m update && git push && npm version patch && npm publish"
     },
