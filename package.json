@@ -1,0 +1,26 @@
+{
+    "name": "erc-abis",
+    "version": "0.0.1",
+    "description": "ERC abis in one place.",
+    "author": "Vukasin Pesic",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "update": "git add . && git commit -m update && git push && npm version patch && npm publish"
+    },
+    "keywords": [
+        "nullion",
+        "web3",
+        "erc20",
+        "erc20 abi",
+        "erc721",
+        "erc721 abi",
+        "erc1155",
+        "erc1155 abi",
+        "abi",
+        "abis",
+        "eth abi",
+        "erc abi",
+        "nft abi"
+    ]
+}
